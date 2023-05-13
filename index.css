@@ -1,9 +1,19 @@
+
+
 body{
-   background-color: rgba(0, 0, 0, 0.534);
-   color: white;
+   background-color: #000000;
+   padding: 0;
+   margin: 0;
+   color: #ffffff ;
 }
 
 h1{
-    font-family: rajdhani;
-    font: white;
+    font-family: "Rajdhani";
+    
+}
+header{
+    background-image: url("Illustrations/Bathome1.png");
+    height: 800px;
+    width: 100vw;
+
 }
