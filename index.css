@@ -1,19 +1,449 @@
 
+/* Police */
+@font-face{
+    font-family: myFont;
+    src: url(font/Rajdhani-Medium.ttf);
+}
 
+h1{
+    font-family: "myFont";
+    font-size: 36px;
+}
+
+@font-face {
+    font-family: spaceBold;
+    src: url(font/SpaceGrotesk-Bold.ttf);
+}
+
+h2{
+    font-family: "spaceBold";
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: spaceRegular;
+    src: url(font/SpaceGrotesk-Regular.ttf);
+}
+
+.texte{
+    font-family: "spaceRegular";
+    font-size: 15px;
+}
+
+
+/* header */
+header{
+    background-image: url("Illustrations/Bathome1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px; 
+}
+
+#homedebut{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    border-left: 2px solid rgba(245, 245, 220, 0.603);
+    border-right: 2px solid rgba(245, 245, 220, 0.603);
+}
+
+#paradebut{
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+#para{
+    text-align: center;
+}
+
+#ilBatman{
+    font-weight: bolder;
+}
+
+#BouttonEnLigne{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 50px;
+    
+}
+.boutonhaut{
+    height: 40px;
+    width: 200px;
+    opacity: 0.5;
+    color: rgb(73, 46, 46);
+    font-family: "myFont";
+    font-size: 20px;
+}
+
+
+#ImagenBlock{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: space-between;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+
+}
+
+#bat_flèche{
+    width: 80px;
+    height: 80px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+
+
+/* nav */
+nav{
+    /* width: 896px; */
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+     justify-content: space-between; 
+    /* margin-left: 100px; */
+    /* border-left: 2px solid rgba(245, 245, 220, 0.603);
+    border-right: 2px solid rgba(245, 245, 220, 0.603);*/
+    /* border-bottom: 2px solid rgba(245, 245, 220, 0.603); */
+    padding-left: 10px ; 
+    padding-right: 10px;
+}
+#HOME{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 15px;
+    
+}
+
+#sousNav{
+    border-top: 2px solid  rgba(245, 245, 220, 0.603) ;
+    
+}
+
+
+/* body */
 body{
    background-color: #000000;
-   padding: 0;
    margin: 0;
    color: #ffffff ;
 }
 
+/*  */
 h1{
-    font-family: "Rajdhani";
-    
+    font-size: 36px;
 }
-header{
-    background-image: url("Illustrations/Bathome1.png");
-    height: 800px;
-    width: 100vw;
+
+
+/* propriétés communes de certaines setion*/
+.batman,footer{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    border-left: 2px solid rgba(245, 245, 220, 0.603);
+    border-right: 2px solid rgba(245, 245, 220, 0.603);
+    padding-left: 60px;
+    padding-right: 60px;
+    
 
 }
+
+
+/* propriétés des images */
+.enLigne{
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ; 
+    padding-top: 30px;
+    
+    
+}
+
+.Legende{
+    text-align: center;
+    font-size: 12px;
+    font-family: Space Grote;
+    
+
+}
+
+
+.enBlock{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.image{
+    height: 600px;
+    width: 200px;
+}
+
+
+#titreImage{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+/* BATMAN AU CINÉMA */
+#flèchebas{
+    margin-left: 350px;
+    margin-bottom: 20px;
+    
+}
+
+
+ /* NÉMÉSIS */
+ #némésis{
+    margin-top: 150px;
+}
+
+
+#iconNemesis{
+   
+    height: 80px;
+    width: 100px;
+
+}
+
+#iconBatman{
+    
+    width: 250px;
+    height: 200px;
+    margin-right: 0;
+    float: right;
+}
+
+
+
+
+ /* ALLIES */
+
+/*  JUSTICE LEAGUE */
+#justice,#alliées{
+    margin-top: 200px;
+}
+
+/* MULTIMÉDIA */
+.MultiEnLigne{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    gap: 30px;
+} 
+
+.flècheMulti{
+    height: 50px;
+    width: 50px;
+    padding-top: 77px;
+}
+
+#batmulti{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#multiImLet{
+    display: flex;
+    flex-direction: row;
+    width: 75%; 
+}
+
+#mutLet{
+    border-top-right-radius: 50px ;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(102, 156, 156);
+    width: 500px;
+    height: 225px;
+    padding: 10px;
+    gap: 10px;
+}
+
+#action{
+    font-weight: bold;
+}
+
+#batBegins,#IMDB,#action{
+    margin-bottom: 5px;
+}
+
+#chiffre{
+    color: #f8f184;
+}
+
+#text{
+    font-size: 13px;
+}
+
+
+
+/* PRENONS CONTACT */
+#formulaire2{
+    /* display: flex;
+    
+    flex-direction: column; */
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px; 
+}
+
+#formulaire{
+    background-color: #05242cc4;
+    color: gray;
+}
+
+.input1{
+    border: none;
+    border-bottom: 1px solid gray ;
+    background: none;
+    width: 100%;
+}
+
+#boutonFooterDiv{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.boutonFooter{
+    background: none;
+    color: #ffffff;
+    border: 1px solid gray;
+}
+
+#souhait{
+    border-bottom: 1px solid gray;
+}
+
+#inputBouton{
+    margin: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: #632121;
+    border: none;
+}
+
+
+#divInputBouton,.titreFooter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.titreFooter{
+    color: #ffffff;
+    font-family: "spaceRegular";
+    font-size: 22px;
+}
+
+/* FOOTER */
+footer{
+    padding: 60px;
+
+}
+
+#guillemets_1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 200px;
+
+}
+
+#citation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+}
+#auteur{
+    font-size: 10px;
+}
+
+.cercle{
+    height: 5px;
+    width: 5px;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid #19587d;
+    display: inline-block;
+}
+
+#cercleMilieu{
+    background-color: #19587d;
+}
+
+#guillemets_2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 200px;
+
+}
+
+#phraseFooter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px ;
+    justify-content: center;
+}
+
+.enligne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
