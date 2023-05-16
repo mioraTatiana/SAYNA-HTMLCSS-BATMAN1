@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>page-acceuil</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="media.css">
 
 
 </head>
@@ -14,8 +16,8 @@
 
         <div id="homedebut">
             <nav >
-                <img src="Logos/logohome.png" alt="icone de batman">
-                <a href="index.html" id="HOME">HOME</a>
+                <img src="Logos/logohome.png" alt="icone de batman" id="iconBatman1">
+                <a href="#homedebut" id="HOME">HOME</a>
     
             </nav>
     
@@ -28,8 +30,12 @@
                     </div>
                     
                     <div id="BouttonEnLigne">
-                        <button class="boutonhaut">VOIR LE HEROS</button>
-                        <button class="boutonhaut">LES ADVERSAIRES</button>
+                        <div class="boutonhaut">
+                            <a  href="#cinéma" class="lienEnLigne">VOIR LE HEROS</a>
+                        </div>
+                        <div class="boutonhaut">
+                            <a href="#némésis" class="lienEnLigne">LES ADVERSAIRES</a>
+                        </div>
         
                     </div>
     
@@ -42,11 +48,11 @@
         </div>
     </header>
     <div id="ImagenBlock">
-        <img  class="bat_flèche" src="Logos/logo_bat_flèche.png" alt="batman renversé">
+        <a href="#homedebut"><img  class="bat_flèche" src="Logos/logo_bat_flèche.png" alt="batman renversé" id="BatLien"></a>
         <img class="icon" src="Logos/icon_facebook.png" alt="facebook">
         <img class="icon" src="Logos/icon_ig.png" alt="instagram">
         <img class="icon" src="Logos/icon_tw.png" alt="twitter">
-        <img src="Logos/logo_bat_flèche_2.png" class="bat_flèche" alt="batman normal">
+        <a href="#formulaire"><img src="Logos/logo_bat_flèche_2.png" class="bat_flèche" alt="batman normal"></a>
             
     </div>
 
@@ -55,8 +61,8 @@
 
         <!--BATMAN AU CINÉMA  -->
         <section  class="batman" id="cinéma">
-            <div>
-                <img src="Logos/flèche_down_header.png" alt="flèche_down_header" id="flèchebas">
+            <div id="flèchebas">
+                <img src="Logos/flèche_down_header.png" alt="flèche_down_header" >
 
             </div>
                 <div>
@@ -68,21 +74,21 @@
 
                 <div  class="enLigne">
                     <div class="enBlock" >
-                        <img src="Illustrations/Bathome2.png"alt="Batman2"  class="image">
+                        <picture><img src="Illustrations/Bathome2.png"alt="Batman2"  class="image"></picture>
                         <h2 class="Legende">
                             Robert Pattinson <br> (2022)
                         </h2>
                     </div>
 
                     <div class="enBlock">
-                        <img src="Illustrations/Bathome3.png" alt="batman3" class="image">
+                        <picture><img src="Illustrations/Bathome3.png" alt="batman3" class="image"></picture>
                         <h2 class="Legende">
                             Christian Bale <br> (2006 - 2008 - 2012)
                         </h2>
                     </div>
 
                     <div class="enBlock">
-                        <img src="Illustrations/Bathome4.png" alt="batman4" class="image">
+                        <picture><img src="Illustrations/Bathome4.png" alt="batman4" class="image"></picture>
                         <h2 class="Legende">
                             Ben Affleck <br> 2016- 2017/2020 – 2023
                         </h2>
@@ -101,7 +107,7 @@
             <div>
                 <div id="titreImage">
                     <h1>NÉMÉSIS</h1>
-                    <img src="Illustrations/Bathome13.png" alt="icon_de_batman" id="iconNemesis">
+                    <picture><img src="Illustrations/Bathome13.png" alt="icon_de_batman" id="iconNemesis"></picture>
 
     
                 </div>
@@ -114,17 +120,17 @@
 
             <div class="enLigne">
                 <div class="enBlock">
-                    <img src="Illustrations/Bathome5.png" alt="ennemie1" class="image" >
+                    <picture> <img src="Illustrations/Bathome5.png" alt="ennemie1" class="image" ></picture>
                     <h2 class="Legende">The Riddler - Paul Dano <br> (2022)</h2>
                 </div>
 
                 <div class="enBlock">
-                    <img src="Illustrations/Bathome6.png" alt="ennemie2" class="image">
+                    <picture><img src="Illustrations/Bathome6.png" alt="ennemie2" class="image"></picture>
                     <h2 class="Legende">Le Joker - Heath Ledger  <br>(2008)</h2>
                 </div>
 
                 <div class="enBlock">
-                    <img src="Illustrations/Bathome7.png" alt="ennemie3" class="image">
+                    <picture><img src="Illustrations/Bathome7.png" alt="ennemie3" class="image"></picture>
                     <h2 class="Legende">Darkseid - Ray Porter <br> (2022)</h2>
                 </div>
 
@@ -151,21 +157,21 @@
             </div>
             <div class="enLigne">
                 <div class="enBlock">
-                    <img src="Illustrations/Bathome9.png" alt="alliée1" class="image" >
+                    <picture><img src="Illustrations/Bathome9.png" alt="alliée1" class="image" ></picture>
                     <h2 class="Legende">
                         Alfred Pennyworth - Michael Cain <br> (2006 - 2008 - 2012)
                     </h2>
                 </div>
 
                 <div class="enBlock">
-                    <img src="Illustrations/Bathome8.png" alt="alliée2" class="image" >
+                    <picture><img src="Illustrations/Bathome8.png" alt="alliée2" class="image" ></picture>
                     <h2 class="Legende">
                         Catwoman - Zoé Kravitz <br> (2008)
                     </h2>
                 </div>
 
                 <div class="enBlock">
-                    <img src="Illustrations/Bathome10.png" alt="alliée3" class="image" >
+                    <picture><img src="Illustrations/Bathome10.png" alt="alliée3" class="image" ></picture>
                     <h2 class="Legende">
                          James Gordon <br> (2014-2019)
                     </h2>
@@ -203,9 +209,11 @@
             </h1>
 
                 <div class="MultiEnLigne">
-                    <img src="Logos/icon_flèche_1.png" alt="flèche1" class="flècheMulti">
+                    <div>
+                        <img src="Logos/icon_flèche_1.png" alt="flèche1" class="flècheMulti" >
+                    </div>
                         <div id="multiImLet">
-                            <img src="Illustrations/Bathome_ba1.png" alt="Bathome_ba1">
+                            <img src="Illustrations/Bathome_ba1.png" alt="Bathome_ba1" id="imageMulti">
                             <div id="mutLet">
                                 <div id="action">ACTION, ADVENTURE</div> 
                                 <div id="batBegins">Batman Begins</div> 
@@ -216,7 +224,9 @@
                             </div>
 
                         </div>
-                    <img src="Logos/icon_flèche_2.png" alt="flèche2" class="flècheMulti">
+                    <div>
+                        <img src="Logos/icon_flèche_2.png" alt="flèche2" class="flècheMulti">
+                    </div>
     
                 </div>
             <div>    
@@ -311,12 +321,12 @@
             </div>
 
             <div class="enligne">
-                <img src="Logos/logo_sayna_white.png" alt="sayna">
+                <img src="Logos/logo_sayna_white.png" alt="sayna" >
                 <img src="Logos/icon_x.png" alt="icon_x">
                 <img src="Logos/icon_DC.png" alt="icon_DC">
-                <img src="Logos/icon_facebook.png" alt="facebook">
-                <img src="Logos/icon_ig.png" alt="instagram">
-                <img src="Logos/icon_tw.png" alt="twitter">
+                <img src="Logos/icon_facebook.png" alt="facebook" class="icon">
+                <img src="Logos/icon_ig.png" alt="instagram" class="icon">
+                <img src="Logos/icon_tw.png" alt="twitter" class="icon">
             </div>
 
     </footer>

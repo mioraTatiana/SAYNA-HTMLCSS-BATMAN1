@@ -1,0 +1,9 @@
+#HOME:hover,#para:hover,#ilBatman:hover,.boutonhaut:hover,.boutonFooter:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    opacity: 0.4;
+}
+
+.texte:hover,h1:hover,h2:hover,#imageMulti:hover,#batmulti:hover{
+    fadein
+}

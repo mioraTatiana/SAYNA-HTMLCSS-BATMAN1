@@ -1,0 +1,68 @@
+@media screen and (max-width: 800px) {
+    .enLigne{
+        display: flex;
+        flex-direction: column;
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .batman{
+        padding-top: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    body{
+        font-size: 10px;
+    }
+
+    #bouttonEnLigne{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    /* batman au cinéma */
+    #cinéma{
+        padding-top: 100px;
+    }
+
+    /* aliees */
+    #iconBatman{
+        width: 180px;
+        height: 180px;
+    }
+    /* Multimédia */
+    #multimédia{
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mutltiEnLigne{
+        display: flex;
+        flex-direction: column;
+    }
+    #multiImLet{
+        display: flex;
+        flex-direction: column;
+    }
+    #mutLet{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        gap: 2px;
+        position: inherit;
+    }
+    /* footer */
+    .enligne{
+        width: 100%;
+        gap: 5px;
+    }
+
+   
+}

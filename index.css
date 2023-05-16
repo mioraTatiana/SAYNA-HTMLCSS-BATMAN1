@@ -36,14 +36,15 @@ header{
     background-image: url("Illustrations/Bathome1.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 800px; 
+    height: 800px;
+    
 }
 
 #homedebut{
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 102px;
+    margin-right: 102px;
     margin-top: 0px;
     margin-bottom: 0%;
     border-left: 2px solid rgba(245, 245, 220, 0.603);
@@ -77,11 +78,22 @@ header{
 .boutonhaut{
     height: 40px;
     width: 200px;
-    opacity: 0.5;
-    color: rgb(73, 46, 46);
+    opacity: 1;
+    /* display: flex;
+    flex-direction: row; */
     font-family: "myFont";
     font-size: 20px;
+    border:1px solid #ffffff;
+    background-color: #744242de;
+    text-align: center;
+    padding-top: 11px;
 }
+
+.lienEnLigne{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 
 
 #ImagenBlock{
@@ -90,10 +102,11 @@ header{
     display: flex;
     flex-direction: column;
     float: right;
-    justify-content: space-between;
-    position: absolute;
-    right: 40px;
-    top: 200px;
+    /* justify-content: space-between; */
+    gap: 1px;
+    position: fixed;
+    right: 74px;
+    top: 150px;
 
 }
 
@@ -105,26 +118,27 @@ header{
 .icon{
     width: 20px;
     height: 20px;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 20px;
 
 }
 
+/* #BatLien{
+    width: 80px;
+    height: 80px;
+} */
+
 
 
 /* nav */
 nav{
-    /* width: 896px; */
+    
     width: 100%;
-    height: 125px;
+    height: 132px;
     display: flex;
     align-items: center;
-     justify-content: space-between; 
-    /* margin-left: 100px; */
-    /* border-left: 2px solid rgba(245, 245, 220, 0.603);
-    border-right: 2px solid rgba(245, 245, 220, 0.603);*/
-    /* border-bottom: 2px solid rgba(245, 245, 220, 0.603); */
+     justify-content: space-between;  
     padding-left: 10px ; 
     padding-right: 10px;
 }
@@ -136,7 +150,7 @@ nav{
 }
 
 #sousNav{
-    border-top: 2px solid  rgba(245, 245, 220, 0.603) ;
+    border-top: 2px solid  #BCBBBD ;
     
 }
 
@@ -156,17 +170,18 @@ h1{
 
 /* propriétés communes de certaines setion*/
 .batman,footer{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 102px;
+    margin-right: 102px;
     margin-top: 0px;
     margin-bottom: 0%;
-    border-left: 2px solid rgba(245, 245, 220, 0.603);
-    border-right: 2px solid rgba(245, 245, 220, 0.603);
+    border-left: 2px solid #BCBBBD;
+    border-right: 2px solid #BCBBBD;
     padding-left: 60px;
     padding-right: 60px;
+    height: 100%;
     
-
 }
+
 
 
 /* propriétés des images */
@@ -197,7 +212,6 @@ h1{
 }
 
 .image{
-    height: 600px;
     width: 200px;
 }
 
@@ -210,11 +224,12 @@ h1{
 
 
 
+
 /* BATMAN AU CINÉMA */
 #flèchebas{
-    margin-left: 350px;
-    margin-bottom: 20px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -238,11 +253,7 @@ h1{
     margin-right: 0;
     float: right;
 }
-
-
-
-
- /* ALLIES */
+ 
 
 /*  JUSTICE LEAGUE */
 #justice,#alliées{
@@ -266,6 +277,14 @@ h1{
 #batmulti{
     width: 100%;
     padding-bottom: 50px;
+}
+
+#batmulti:hover{
+    drop-shadow: #ffffff 40%;
+    blur: 0;
+    x: 0;
+    y: 0;
+    spread: 0;
 }
 
 #multiImLet{
@@ -336,6 +355,7 @@ h1{
     background: none;
     color: #ffffff;
     border: 1px solid gray;
+    opacity: 1;
 }
 
 #souhait{
@@ -347,7 +367,7 @@ h1{
     height: 40px;
     width: 150px;
     color: white;
-    background-color: #632121;
+    background-color: #7a3b3b;
     border: none;
 }
 
@@ -389,6 +409,7 @@ footer{
 }
 #auteur{
     font-size: 10px;
+    margin-top: 25px;
 }
 
 .cercle{
@@ -419,13 +440,23 @@ footer{
     justify-content: center;
 }
 
+#textFooter{
+    font-size: 10px;
+    padding-top: 5px;
+}
+
 .enligne{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin: 20px;
+    
 }
+
+
+
+
 
 
 
