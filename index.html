@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="media.css">
+    
 
 
 </head>
@@ -195,7 +196,7 @@
 
         </section>
         <div>
-            <img src="Illustrations/Bathome11.png" alt="justice ligue" width="100%">
+            <img src="Illustrations/Bathome11.png" alt="justice ligue" width="100%" id="justiceImage">
         </div>
 
 
@@ -249,7 +250,16 @@
                 <label for="check" class="texte">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</label>
                 <input type="checkbox" name="check" id="check"> <br> <br>
 
-                <label for="liste" class="texte">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</label>
+
+                <div id="Liste">
+                    <span class="texte">
+                          Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter
+                    </span>
+                    <span>
+                        <img src="Logos/icon_flèche_2.png" alt="flèche1" id="flècheForme" >
+                    </span>
+
+                </div>
                 <select name="liste" id="liste">
                     <option value="1semaine">une fois par semaine</option>
                     <option value="2semaines">une fois toutes les deux semaines</option>
@@ -272,13 +282,12 @@
                 <h2 class="titreFooter">MESSAGE</h2>
                 <input type="text" class="input1"  name="commentaire" id="commentaire" placeholder="Laissez un commentaire pour la communauté">
                 <div id="divInputBouton">
-                    <input type="submit" value="COMFIRMER" id="inputBouton">
+                    <button type="submit" id="inputBouton" onclick="alert('MESSAGE RECU !')">COMFIRMER</button>
                 </div>
 
 
             </div>
         </section>
-
 
         
     </main>
@@ -330,5 +339,6 @@
             </div>
 
     </footer>
+    <!-- <script src="pop-up.js"></script> -->
 </body>
 </html>

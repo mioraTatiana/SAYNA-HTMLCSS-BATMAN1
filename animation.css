@@ -4,6 +4,14 @@
     opacity: 0.4;
 }
 
-.texte:hover,h1:hover,h2:hover,#imageMulti:hover,#batmulti:hover{
+/* .texte:hover,h1:hover,h2:hover,#imageMulti:hover,#batmulti:hover{
     fadein
+} */
+
+.image:hover,#justiceImage:hover,#imageMulti:hover{
+    transform: scale(1.1) ;
+}
+
+.icon:hover{
+    -webkit-filter: hue-rotate(90deg);
 }
